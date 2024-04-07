@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-def add_tuple(tuple_b=(), tuple_c=()):
-    if len(tuple_b) == 0:
-        tuple_b = (0, 0)
-    elif len(tuple_b) == 1:
-        tuple_b = (tuple_b[0], 0)
-    if len(tuple_c) == 0:
-        tuple_c = (0, 0)
-    elif len(tuple_c) == 1:
-        tuple_c = (tuple_c[0], 0)
+def add_tuple(x=(), y=()):
+    if len(x) == 0:
+        x = (0, 0)
+    elif len(x) == 1:
+        x = (x[0], 0)
+    if len(y) == 0:
+        y = (0, 0)
+    elif len(y) == 1:
+        y = (y[0], 0)
 
-    return (tuple_b[0] + tuple_c[0], tuple_c[1] + tuple_c[1])
+    return (x[0] + y[0], x[1] + y[1])

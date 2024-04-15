@@ -1,0 +1,1 @@
+Hash tables are a fundamental data structure used in computer science for efficient data storage and retrieval. They work by using a hash function to map keys to indexes in an array, allowing for fast lookup, insertion, and deletion of key-value pairs.
